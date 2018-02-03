@@ -1,6 +1,6 @@
 
 
-this is all the dependencies insatlled :
+this is all the dependencies installed :
 
 dependencies: 
 - ejs
