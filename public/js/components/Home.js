@@ -1,19 +1,19 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 class Home extends React.Component {
-
-    constructor() {
-        super();
-    }
+  constructor() {
+    super();
+  }
 
   render() {
     return (
       <div>
         <h1>Hello React Redux</h1>
-        <h2><Link to="/other">Other Page Link</Link></h2>
-        <h4>dependencies installed :</h4>
-
+        <h2>
+          <Link to="/other">Other Page Link</Link>
+        </h2>
+        <h4>dependencies</h4>
         <ul>
           <li>ejs</li>
           <li>express</li>
@@ -22,10 +22,14 @@ class Home extends React.Component {
           <li>react-redux</li>
           <li>react-router-dom</li>
           <li>redux</li>
+        </ul>
+        <h4>dev dependencies</h4>
+        <ul>
           <li>babel-core</li>
           <li>babel-loader</li>
           <li>babel-preset-es2015</li>
           <li>babel-preset-react</li>
+          <li>nodemon</li>
           <li>webpack</li>
         </ul>
       </div>
